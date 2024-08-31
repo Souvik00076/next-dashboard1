@@ -46,8 +46,8 @@ const CountChart: FC<TCountChart> = ({ style }) => {
       )}
     >
       <div className="flex items-center justify-between">
-        <span>Students</span>
-        <Image src="/more.png" width={20} height={20} alt="more icon" />
+        <span>Attendance</span>
+        <Image src="/moreDark.png" width={20} height={20} alt="more icon" />
       </div>
       <div className="flex-1 relative">
         <ResponsiveContainer>
