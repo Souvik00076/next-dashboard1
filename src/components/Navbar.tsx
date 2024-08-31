@@ -2,13 +2,13 @@ import Image from "next/image";
 import { CommonInput } from "./shared";
 const Navbar = () => {
   return (
-    <div className="relative mt-4">
+    <div className="flex items-center justify-between mt-2">
       <CommonInput
         placeholder="Search"
         icon="/search.png"
-        style="left-0 hidden md:flex border-none px-2 py-1 rounded-md bg-white absolute "
+        style=" hidden md:flex border-none px-2 py-1 rounded-md bg-white"
       />
-      <div className="flex gap-4 items-center justify-center absolute right-0">
+      <div className="flex gap-4 items-center justify-center">
         <Image
           src="/message.png"
           alt="message icon"

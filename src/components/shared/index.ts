@@ -1,3 +1,4 @@
 import CommonInput from "./CommonInput";
 import Card from "./Card";
-export { CommonInput, Card };
+import CountChart from "./CountChart";
+export { CommonInput, Card, CountChart };

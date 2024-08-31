@@ -28,7 +28,7 @@ export default function DashboardLayout({
       </div>
       <div className="w-[86%] md:w-[92%] lg:w-[84%] h-full bg-right-layout-primary flex flex-col gap-y-2 md:px-4 px-1">
         <Navbar />
-        <div className="mt-8">{children}</div>
+        {children}
       </div>
     </div>
   );
