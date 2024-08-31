@@ -1,4 +1,9 @@
-import { BarChartCustom, Card, CountChart } from "@/components/shared";
+import {
+  BarChartCustom,
+  Card,
+  CountChart,
+  FinanceChart,
+} from "@/components/shared";
 
 export default function Home() {
   return (
@@ -10,10 +15,11 @@ export default function Home() {
           <Card date={new Date()} amount={"1234"} holderType={"Parents"} />
           <Card date={new Date()} amount={"1234"} holderType={"Staffs"} />
         </div>
-        <div className="flex flex-col md:flex-row justify-center  items-center gap-2 mt-4">
-          <CountChart style="w-[80%] md:w-[35%] md:min-w-[200px] h-[300px] " />
+        <div className="flex flex-col md:flex-row justify-center  items-center gap-4 mt-4">
+          <CountChart style="w-[100%] md:w-[35%] md:min-w-[200px] h-[300px] " />
           <BarChartCustom style="w-[100%] md:w-[65%] h-[300px]" />
         </div>
+        <FinanceChart style="w-[100%] h-[300px] my-4 " />
       </div>
       <div className="w-[30%]"></div>
     </div>

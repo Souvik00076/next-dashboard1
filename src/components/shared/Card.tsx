@@ -11,7 +11,7 @@ const Card: FC<TCard> = ({ date, amount, holderType, style = "" }) => {
   return (
     <div
       className={mergeStyles(
-        "min-w-[150px] rounded-md odd:bg-purple even:bg-yellow gap-2 p-2 flex flex-col",
+        "min-w-[180px] rounded-md odd:bg-purple even:bg-yellow gap-2 p-2 flex flex-col",
         style,
       )}
     >
