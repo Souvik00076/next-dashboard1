@@ -1,3 +1,3 @@
 import { mergeStyles } from "./mergeStyles";
-
-export { mergeStyles };
+import { formatDateToDDMMYY } from "./formatDateToDDMMYY";
+export { mergeStyles, formatDateToDDMMYY };

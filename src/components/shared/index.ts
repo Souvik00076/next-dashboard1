@@ -1,3 +1,3 @@
 import CommonInput from "./CommonInput";
-
-export { CommonInput };
+import Card from "./Card";
+export { CommonInput, Card };

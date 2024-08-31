@@ -10,6 +10,12 @@ const config: Config = {
     extend: {
       colors: {
         "right-layout-primary": "#F7F8FA",
+        sky: "#C3EBFA",
+        skylight: "#EDF9FD",
+        purple: "#CFCEFF",
+        purplelight: "#F1F0FF",
+        yellow: "#FAE27C",
+        yellolight: "#FEFCE8",
       },
     },
   },

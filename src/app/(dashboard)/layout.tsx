@@ -1,4 +1,5 @@
 import { Menu, Navbar } from "@/components";
+import { Card } from "@/components/shared";
 import type { Metadata } from "next";
 import Link from "next/link";
 /*eslint-disable @next/next/no-img-element*/
@@ -25,8 +26,9 @@ export default function DashboardLayout({
         </Link>
         <Menu />
       </div>
-      <div className="w-[86%] md:w-[92%] lg:w-[84%] h-full bg-right-layout-primary">
+      <div className="w-[86%] md:w-[92%] lg:w-[84%] h-full bg-right-layout-primary flex flex-col gap-y-2 md:px-4 px-1">
         <Navbar />
+        <div className="mt-8">{children}</div>
       </div>
     </div>
   );
