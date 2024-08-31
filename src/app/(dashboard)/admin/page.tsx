@@ -1,5 +1,6 @@
 import {
   BarChartCustom,
+  CalendarCustom,
   Card,
   CountChart,
   FinanceChart,
@@ -7,7 +8,7 @@ import {
 
 export default function Home() {
   return (
-    <div className="mt-8 flex flex-col items-center justify-center md:flex-row">
+    <div className="mt-8 flex flex-col gap-2 md:items-start items-center justify-center   md:flex-row">
       <div className=" w-[80%] md:w-[70%]">
         <div className="flex items-center justify-between flex-wrap gap-y-2">
           <Card date={new Date()} amount={"1234"} holderType={"Students"} />
@@ -21,7 +22,9 @@ export default function Home() {
         </div>
         <FinanceChart style="w-[100%] h-[300px] my-4 " />
       </div>
-      <div className="w-[30%]"></div>
+      <div className="md:w-[30%] w-[100%] flex flex-col ">
+        <CalendarCustom />
+      </div>
     </div>
   );
 }
