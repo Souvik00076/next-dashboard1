@@ -1,4 +1,4 @@
-import Menu from "@/components/Menu";
+import { Menu, Navbar } from "@/components";
 import type { Metadata } from "next";
 import Link from "next/link";
 /*eslint-disable @next/next/no-img-element*/
@@ -25,7 +25,9 @@ export default function DashboardLayout({
         </Link>
         <Menu />
       </div>
-      <div className="w-[86%] md:w-[92%] lg:w-[84%] h-full">r</div>
+      <div className="w-[86%] md:w-[92%] lg:w-[84%] h-full bg-right-layout-primary">
+        <Navbar />
+      </div>
     </div>
   );
 }
