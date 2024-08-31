@@ -2,7 +2,7 @@ import Image from "next/image";
 import { CommonInput } from "./shared";
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between mt-2">
+    <div className="flex items-center justify-end md:justify-between mt-2">
       <CommonInput
         placeholder="Search"
         icon="/search.png"

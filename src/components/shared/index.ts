@@ -4,6 +4,7 @@ import CountChart from "./CountChart";
 import BarChartCustom from "./BarChart";
 import FinanceChart from "./FinanceChart";
 import CalendarCustom from "./Calendar";
+import Events from "./Events";
 export {
   CalendarCustom,
   CommonInput,
@@ -11,4 +12,5 @@ export {
   CountChart,
   BarChartCustom,
   FinanceChart,
+  Events,
 };
